@@ -447,6 +447,9 @@ footer {
     width: 200px;
     margin: 10px 0px;
   }
+  .nav ul li {
+    font-size: 11px;
+  }
 
   .menu {
     flex-wrap: wrap;
