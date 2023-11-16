@@ -262,6 +262,28 @@ h6 {
   background-color: #000;
   opacity: 0;
 }
+.overlay-container:hover .overlay-black {
+  opacity: 0.8;
+}
+
+.overlay-container:hover .overlay-text {
+  top: 38%;
+  opacity: 1;
+}
+
+.overlay-text {
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 38%;
+  left: 0;
+  opacity: 0;
+  transition: 0.3s ease-in;
+}
 .work-show__container {
   display: flex;
   justify-content: center;
@@ -479,7 +501,7 @@ footer {
   }
   /*work*/
   .work-main {
-    margin-top: 20%!important;
+    margin-top: 20% !important;
   }
   .work-main p {
     font-size: 3rem;
