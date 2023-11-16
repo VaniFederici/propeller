@@ -195,7 +195,7 @@ h6 {
   margin-top: 75px;
   display: flex;
   justify-content: start;
-  margin-left: 24%;
+  margin-left: 27%;
 }
 .work-main p {
   font-size: 7rem;
@@ -458,7 +458,7 @@ footer {
   .about p {
     font-size: 1.7rem;
     padding: 5%;
-    margin-top: 15%;
+    margin-top: 55%;
   }
   /*services*/
   .services-containter {
@@ -471,12 +471,16 @@ footer {
     font-size: 1.2rem;
     padding: 10px;
     text-align: center;
+    margin-top: 25%;
   }
   .services-containter h1 {
     font-size: 1.7rem;
     text-align: center;
   }
   /*work*/
+  .work-main {
+    margin-top: 20%!important;
+  }
   .work-main p {
     font-size: 3rem;
     line-height: 65px;
