@@ -444,7 +444,8 @@ footer {
     margin-top: 20px;
   }
   .nav img {
-    width: 280px;
+    width: 200px;
+    margin: 10px 0px;
   }
 
   .menu {
@@ -480,7 +481,7 @@ footer {
   .about p {
     font-size: 1.7rem;
     padding: 5%;
-    margin-top: 55%;
+    margin-top: 25%;
   }
   /*services*/
   .services-containter {
