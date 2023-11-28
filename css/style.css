@@ -184,11 +184,11 @@ h6 {
 
 .fp-controlArrow.fp-next {
   right: 6px;
-  border-width: 15.5px 0 15.5px 20px;
+  border-width: 10.5px 0 10.5px 15px;
 }
 .fp-controlArrow.fp-prev {
   left: 6px;
-  border-width: 15.5px 20px 15.5px 0;
+  border-width: 10.5px 15px 10.5px 0;
 }
 
 .work-main {
@@ -518,6 +518,10 @@ footer {
     margin-top: 100px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    height: 90%;
+  }
+  .overlay-text {
+    font-size: 1rem;
   }
   /*clients*/
   .clients-section h1 {
