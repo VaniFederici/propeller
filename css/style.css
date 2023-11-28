@@ -113,13 +113,18 @@ h6 {
   font-family: "monserrat-Thin";
   line-height: 110px;
 }
+.icon-chevron-container {
+  display: flex;
+  justify-content: center;
+  
+}
 .scroll-icon {
   color: white;
   position: absolute;
   font-size: 45px;
   font-weight: bold;
   bottom: 2%;
-  margin: 0px;
+  margin: auto;
 
   animation: drop-down 1s ease infinite;
 }
