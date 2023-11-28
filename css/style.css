@@ -119,7 +119,8 @@ h6 {
   font-size: 45px;
   font-weight: bold;
   bottom: 2%;
-  right: 50%;
+  margin: 0px;
+
   animation: drop-down 1s ease infinite;
 }
 
