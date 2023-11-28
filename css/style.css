@@ -116,7 +116,7 @@ h6 {
 .icon-chevron-container {
   display: flex;
   justify-content: center;
-  
+
 }
 .scroll-icon {
   color: white;
@@ -472,19 +472,22 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 50px 0px;
   }
   .paragraph-white {
-    font-size: 2rem;
-    line-height: 45px;
+    font-size: 3rem;
+    line-height: 55px;
     text-align: center;
   }
   .paragraph-red {
-    font-size: 2rem;
-    line-height: 45px;
+    font-size: 3rem;
+    line-height: 55px;
     text-align: center;
   }
   .scroll-icon {
-    bottom: 20%;
+    bottom: 5%;
+    margin-top: 50px;
+  
   }
   /*about*/
   .about p {
