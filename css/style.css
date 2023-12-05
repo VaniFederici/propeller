@@ -668,7 +668,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px;
+    margin-top: 150px;
   }
   .paragraph-white {
     font-size: 3rem;
@@ -681,7 +681,7 @@ span {
     text-align: center;
   }
   .scroll-icon {
-    bottom: 5%;
+    bottom: -26%;
     margin-top: 50px;
   }
   /*about*/
@@ -798,7 +798,6 @@ span {
   /*resident*/
   .resident-container {
     margin: 150px 5px;
-    
   }
   .resident-main__video {
     width: 100%;
@@ -829,7 +828,7 @@ span {
   .branding-can__container {
     flex-direction: column;
   }
-  .branding-can__container p  {
+  .branding-can__container p {
     width: 100%;
   }
 
@@ -846,7 +845,7 @@ span {
   }
   .branding-video__container iframe {
     width: 100%;
-  height: 360px;
+    height: 360px;
   }
   .branding-video__container p {
     padding: 0px 20px;
@@ -854,7 +853,6 @@ span {
     font-size: 1.3rem;
     text-align: center;
     margin-top: 40px;
-   
   }
   /*davisReed*/
   .davis-img__wrapper {
@@ -862,26 +860,23 @@ span {
   }
   #davis-paragraph {
     padding: 0px 25px;
-}
-.davis-brand__container {
-  flex-direction: column;
-}
-.davis-brand__container p {
-  font-size: 1.3rem;
-  text-align: center;
-}
-.davis-web__wrapper{
+  }
+  .davis-brand__container {
+    flex-direction: column;
+  }
+  .davis-brand__container p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .davis-web__wrapper {
     flex-direction: column-reverse;
+  }
+  .davis-web__wrapper p {
+    font-size: 1.3rem;
+    padding: 10px;
+    text-align: center;
+  }
+  .davis-web__wrapper img {
+    width: 100%;
+  }
 }
-.davis-web__wrapper p {
-  font-size: 1.3rem;
-  padding: 10px;
-  text-align: center;
-}
-.davis-web__wrapper img {
-  width: 100%;
-}
-}
-
-
-
