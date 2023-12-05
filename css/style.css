@@ -530,7 +530,6 @@ footer {
   display: flex;
   align-items: center;
   margin: 0px;
-  
 }
 .branding-video__container iframe {
   width: 780px;
@@ -551,13 +550,58 @@ footer {
 .bg-grey {
   background-color: #c3c3c3;
 }
-.bg-grey ul li a{
+.bg-grey ul li a {
   color: #000;
 }
 .tittle p {
   font-weight: bolder;
 }
 
+/* davisredd*/
+
+.davis-img__wrapper {
+  height: 550px;
+  background-image: url(../media/branding_davisreed.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.davisReed {
+  padding-right: 60px;
+  padding-left: 0px;
+}
+#davis-paragraph {
+  padding: 0px 50px;
+}
+.davis-brand__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 25px;
+}
+.davis-brand__container p {
+  font-size: 2rem;
+  padding: 25px;
+}
+.davis-image-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.davis-web__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.davis-web__wrapper p {
+  font-size: 2rem;
+  padding: 60px;
+}
+span {
+  color: #e72a24;
+  font-weight: bold;
+}
 
 /*media queries*/
 
@@ -584,6 +628,11 @@ footer {
   }
   .branding-video__container p {
     padding: 0px 50px;
+  }
+
+  /*davisReed*/
+  .davisReed {
+    padding: 0px;
   }
 }
 
