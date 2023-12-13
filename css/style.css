@@ -658,7 +658,7 @@ span {
     margin-top: 25px;
   }
   .branding-can__container img {
-    margin-left: 5px;
+    margin-left: 0px;
   }
   .branding-can__container p {
     width: 26%;
@@ -877,9 +877,10 @@ span {
   .resident-main__container p {
     margin: 0px;
     padding: 0px;
+    font-size: 1.3rem;
   }
   .resident-main__container h1 {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
   .resident-banner {
     display: flex;
@@ -900,6 +901,8 @@ span {
   }
   .branding-can__container p {
     width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
   }
 
   .can1 {
