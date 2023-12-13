@@ -729,7 +729,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6%;
+    margin-top: 3%;
   }
   .paragraph-white {
     font-size: 3rem;
@@ -742,8 +742,8 @@ span {
     text-align: center;
   }
   .scroll-icon {
-    bottom: 0%;
-    margin-top: 50px;
+    bottom: 3%;
+    margin-top: 30px;
   }
   /*about*/
   .about p {
