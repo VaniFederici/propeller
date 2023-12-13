@@ -688,10 +688,23 @@ span {
 /*brand film*/
 
 @media only screen and (min-width: 360px) and (max-width: 780px) {
+  .fullimage {
+    width: 100% !important;
+  }
+  .film-main__container h1 {
+    font-size: 1.3rem;
+  }
+  .film-main__container p {
+    font-size: 1.3rem;
+  }
+  .film-video__wrapper iframe {
+    height: 32vh;
+  }
   .nav {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    top: -20px;
   }
   .nav img {
     width: 200px;
@@ -716,7 +729,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 6%;
   }
   .paragraph-white {
     font-size: 3rem;
@@ -736,7 +749,7 @@ span {
   .about p {
     font-size: 1.7rem;
     padding: 5%;
-    margin-top: 25%;
+    margin-top: 10%;
   }
   /*services*/
   .services-containter {
@@ -914,6 +927,12 @@ span {
   /*davisReed*/
   .davis-img__wrapper {
     height: 148px;
+  }
+  .davis-image-wrapper {
+    width: 100%;
+  }
+  .davis-image-wrapper img {
+    width: 100% !important;
   }
   #davis-paragraph {
     padding: 0px 25px;
