@@ -688,6 +688,9 @@ span {
 /*brand film*/
 
 @media only screen and (min-width: 360px) and (max-width: 780px) {
+  .body-height {
+    height: 100vh;
+  }
   .fullimage {
     width: 100% !important;
   }
@@ -770,8 +773,8 @@ span {
   }
   /*work*/
   .work-main {
-    margin-left: 12%;
-    margin-top: 50px;
+    margin-left: 8%;
+    margin-top: 3%;
   }
   .work-main p {
     font-size: 3rem;
