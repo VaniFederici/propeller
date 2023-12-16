@@ -433,9 +433,13 @@ footer {
   flex-direction: column;
   align-items: end;
 }
+.social-container a {
+  color: white;
+}
 .icon-container {
   display: flex;
   justify-content: space-around;
+  color: white;
 }
 .icon-container i {
   margin-left: 15px;
