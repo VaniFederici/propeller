@@ -377,13 +377,17 @@ form {
 
 input {
   width: 600px;
-  background: #d4d4d4;
+  background: #f7f3f3;
+  color: black;
+  font-weight: bold;
   border: none;
   height: 30px;
 }
 textarea {
   width: 600px;
-  background: #d4d4d4;
+  background: #f7f3f3;;
+  color: #000;
+  font-weight: bold;
   border: none;
   height: 80px;
 }
@@ -644,6 +648,30 @@ span {
   font-size: 3rem;
   color: #e72a24;
 }
+
+/*contact ok */
+.contact-message {
+ margin-top: 15%;
+ display: flex;
+ justify-content: center;
+}
+
+.contact-message__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  width: 50%;
+  padding: 40px 0px;
+  border-radius: 2px;
+}
+.contact-message__container h1 {
+  color: #e72a24;
+  font-size: 6rem;
+  font-family:monserrat-Light ;
+}
+
 
 /*media queries*/
 
