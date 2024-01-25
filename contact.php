@@ -13,7 +13,7 @@ if (isset($_POST['email']) and $_POST['email']!=""){
 	
 	$correo=$email;
 	
-	$destinatario="vanifederici@gmail.com";
+	$destinatario="rafael@propellerinnovation.com";
 	
 	$asunto = "Message from www.propellerinnovation.com"; 
 	$cuerpo = 'Message sent from www.propellerinnovation.com:
