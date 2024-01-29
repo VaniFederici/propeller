@@ -359,6 +359,102 @@ h6 {
 .img-next {
   width: 80%;
 }
+.img-prev {
+  width: 80%;
+}
+
+/*carousel*/
+.Carousel{
+  width: 100%;
+  margin: 0px 60px;
+}
+.Carousel h2{
+  font-size: 26px;
+  line-height: 38px;
+  padding-bottom: 24px;
+  opacity: .9;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/* images */
+
+.slick-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 304px;
+  padding: 10px 0px;
+  margin: 0px auto;
+  max-width: 90vw;
+  overflow: hidden;
+}
+.slick-track{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: .5s ease-in-out;
+}
+.slick{
+  
+  width: 450px;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  margin: 0px 15px;
+}
+.slick h4{
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 23px;
+  color: #fff;
+  padding: 15px;
+}
+.slick h4 small{
+  font-size: 15px;
+  display: block;
+}
+
+.slick a img:hover{
+  opacity: .85;
+}
+
+/* buttons */
+
+.slick-arrow{
+  border-radius: 30px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 4;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+  border: 0;
+  cursor: pointer;
+}
+.slick-arrow:focus{
+  outline: 0;
+}
+.slick-arrow svg{
+  width: 12px;
+  height: 100%;
+  color: rgba(0,0,0,.7);
+}
+.slick-prev{
+  left: 0px;
+}
+.slick-next{
+  right: 0px;
+}
+
+
 /*clients*/
 .clients-section {
   background-color: #e72a24;
@@ -435,16 +531,18 @@ textarea {
 }
 label {
   color: #ec2027;
-  font-weight: 800;
+  font-weight: bolder;
+  font-family: "monserrat-Regular";
 }
 
 .button {
-  width: 60px;
+  width: 65px;
   font-size: 1.2rem;
   border-radius: 3px;
   background-color: #ec2027;
   margin: 5px;
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: "monserrat-Regular";
 }
 .button:hover {
   background-color: #000;
@@ -874,6 +972,17 @@ span {
   .overlay-text {
     font-size: 1rem;
   }
+  .img-next , .img-prev {
+    width: 0px;
+  }
+
+  .content-prev-a {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .prev-next div{
+     margin: 0px;
+  }
   /*clients*/
   .clients-section h1 {
     font-size: 3rem;
@@ -1037,4 +1146,8 @@ span {
   .davis-web__wrapper img {
     width: 100%;
   }
+  /*carousel*/
+ .slick {
+  margin-left: -16px;
+ }
 }
