@@ -1052,7 +1052,7 @@ span {
   }
   /*resident*/
   .resident-container {
-    margin: 150px 5px;
+    margin: 150px 5px 30px 5px;
   }
   .resident-main__video {
     width: 100%;
@@ -1149,5 +1149,8 @@ span {
   /*carousel*/
  .slick {
   margin-left: -16px;
+ }
+ .navigation-footer {
+  padding-bottom:  50px;
  }
 }
