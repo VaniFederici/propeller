@@ -404,7 +404,7 @@ h6 {
 }
 .slick{
   
-  width: 450px;
+  width: 400px;
   float: left;
   box-sizing: border-box;
   display: flex;
@@ -605,7 +605,7 @@ footer {
 }
 
 .resident-container {
-  margin: 80px 150px;
+  margin: 80px 200px;
 }
 .resident {
   background: #c3c3c3;
@@ -638,7 +638,7 @@ footer {
   width: 100%;
 }
 .resident-main__video {
-  width: 1800px;
+  width: 100%;
   margin: auto;
 }
 .resident-banner p {
@@ -654,10 +654,7 @@ footer {
 }
 
 .branding-image__container img {
-  height: 90%;
-  overflow: hidden;
-  transition-timing-function: ease-in;
-  transition: 0.3s;
+ width: 500px;
 }
 .branding-image img {
   width: 100%;
@@ -670,8 +667,8 @@ footer {
 }
 
 .branding-can__container img {
-  margin-left: 19px;
-  width: 380px;
+  margin-left: 10px;
+  width: 350px;
 }
 .branding-can__container p {
   margin: auto;
@@ -822,14 +819,12 @@ span {
 
 @media only screen and (max-width: 1600px) {
 
-  .resident-main__video {
-    width: 1230px;
-  }
+
   .resident-main__container p {
     font-size: 1.5rem;
   }
   .branding-image__container img {
-    width: 550px;
+    width: 400px;
     margin: 5px 0px;
   }
   .branding-can__container {
@@ -837,31 +832,44 @@ span {
   }
   .branding-can__container img {
     margin-left: 0px;
-    width: 350px;
+    width: 340px;
   }
   .branding-can__container p {
-    width: 26%;
+    width: 38%;
     font-size: 1.5rem;
   }
   .branding-video__container p {
     padding: 0px 30px;
     text-align: end;
+    font-size: 1.5rem;
+  }
+  .resident-banner p  {
+    font-size: 1.5rem;
   }
 
   /*davisReed*/
   #davis-paragraph {
     padding: 0px 0px 0px 30px;
     text-align: end;
+    font-size: 1.5rem;
+  }
+  .davis-brand__container p {
+    font-size: 1.5rem;
+    padding: 5px;
   }
   .davisReed {
     padding: 0px;
   }
   .davis-img__wrapper {
-    height: 450px;
+    width: 400px;
   }
   .davis-web__wrapper p {
-    padding: 20px;
+    padding: 15px;
     text-align: end;
+    font-size: 1.5rem;
+  }
+  .davis-web__wrapper img {
+    width: 750px;
   }
 }
 /*brand film*/
@@ -870,9 +878,7 @@ span {
   .body-height {
     height: 100vh;
   }
-  .fullimage {
-    width: 100% !important;
-  }
+ 
   .film-main__container h1 {
     font-size: 1.3rem;
   }
@@ -1089,7 +1095,7 @@ span {
     flex-direction: column-reverse;
   }
   .branding-image__container img {
-    width: 100%;
+    width: 350px;
   }
   .resident-banner p {
     font-size: 1.3rem;
@@ -1131,11 +1137,9 @@ span {
     height: 148px;
   }
   .davis-image-wrapper {
-    width: 100%;
+    width: 350px;
   }
-  .davis-image-wrapper img {
-    width: 100% !important;
-  }
+
   #davis-paragraph {
     padding: 0px 25px;
     font-size: 1.3rem;
