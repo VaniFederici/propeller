@@ -362,6 +362,9 @@ h6 {
 .img-prev {
   width: 80%;
 }
+.margin-work {
+  margin: 25px 105px;
+}
 
 /*carousel*/
 .Carousel{
@@ -635,7 +638,7 @@ footer {
   width: 100%;
 }
 .resident-main__video {
-  width: 1600px;
+  width: 1800px;
   margin: auto;
 }
 .resident-banner p {
@@ -668,17 +671,19 @@ footer {
 
 .branding-can__container img {
   margin-left: 19px;
+  width: 380px;
 }
 .branding-can__container p {
   margin: auto;
   font-size: 2.2rem;
   padding: 20px;
-  width: 40%;
+  width: 50%;
 }
 .branding-video__container {
   display: flex;
   align-items: center;
-  margin: 0px;
+  justify-content: space-between;
+ 
 }
 .branding-video__container iframe {
   width: 780px;
@@ -687,7 +692,7 @@ footer {
 .branding-video__container p {
   font-size: 2.2rem;
   width: 50%;
-  padding: 0px 150px;
+  padding: 0px 70px;
 }
 
 /*prueba*/
@@ -816,6 +821,7 @@ span {
 /*media queries*/
 
 @media only screen and (max-width: 1600px) {
+
   .resident-main__video {
     width: 1230px;
   }
@@ -823,7 +829,7 @@ span {
     font-size: 1.5rem;
   }
   .branding-image__container img {
-    width: 500px;
+    width: 550px;
     margin: 5px 0px;
   }
   .branding-can__container {
@@ -831,6 +837,7 @@ span {
   }
   .branding-can__container img {
     margin-left: 0px;
+    width: 350px;
   }
   .branding-can__container p {
     width: 26%;
@@ -982,6 +989,12 @@ span {
   }
   .prev-next div{
      margin: 0px;
+  }
+  .margin-work {
+    margin: 25px ;
+  }
+  .branding-video__container {
+    margin: 25px;
   }
   /*clients*/
   .clients-section h1 {
@@ -1146,11 +1159,16 @@ span {
   .davis-web__wrapper img {
     width: 100%;
   }
+  /*navigation work*/
+     .navigation-footer {
+    padding-bottom:  50px;
+   }
+   .text-right , .text-left {
+    padding: 0px 5px;
+   }
   /*carousel*/
  .slick {
   margin-left: -16px;
  }
- .navigation-footer {
-  padding-bottom:  50px;
- }
+
 }
