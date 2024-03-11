@@ -31,6 +31,7 @@ const sectionPage = new fullpage("#fullpage", {
   },
 });
 
+
 function App() {}
 
 window.onload = function (event) {

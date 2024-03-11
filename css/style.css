@@ -114,7 +114,7 @@ h6 {
 .paragraph-red {
   color: #e72a24;
   font-size: 7rem;
-  font-family: "monserrat-Thin";
+  font-family: "monserrat-Light";
   line-height: 110px;
 }
 .icon-chevron-container {
@@ -284,7 +284,7 @@ h6 {
   width: 100%;
   font-weight: bold;
   font-size: 1.8rem;
-  color: white;
+  color: #ffff;
   text-align: center;
   display: block;
   position: absolute;
@@ -338,7 +338,6 @@ h6 {
 }
 .prev-next div {
   margin: 0px 5px;
-  
 }
 .prev-next div img {
   margin: 0px 5px;
@@ -367,15 +366,15 @@ h6 {
 }
 
 /*carousel*/
-.Carousel{
+.Carousel {
   width: 100%;
   margin: 0px 60px;
 }
-.Carousel h2{
+.Carousel h2 {
   font-size: 26px;
   line-height: 38px;
   padding-bottom: 24px;
-  opacity: .9;
+  opacity: 0.9;
   text-transform: uppercase;
   letter-spacing: 10px;
   text-align: center;
@@ -383,7 +382,7 @@ h6 {
 
 /* images */
 
-.slick-list{
+.slick-list {
   position: relative;
   display: flex;
   align-items: center;
@@ -394,16 +393,15 @@ h6 {
   max-width: 90vw;
   overflow: hidden;
 }
-.slick-track{
+.slick-track {
   position: relative;
   top: 0;
   left: 0;
   display: flex;
   justify-content: center;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
-.slick{
-  
+.slick {
   width: 400px;
   float: left;
   box-sizing: border-box;
@@ -411,7 +409,7 @@ h6 {
   height: 100%;
   margin: 0px 15px;
 }
-.slick h4{
+.slick h4 {
   position: absolute;
   z-index: 1;
   font-size: 22px;
@@ -419,18 +417,18 @@ h6 {
   color: #fff;
   padding: 15px;
 }
-.slick h4 small{
+.slick h4 small {
   font-size: 15px;
   display: block;
 }
 
-.slick a img:hover{
-  opacity: .85;
+.slick a img:hover {
+  opacity: 0.85;
 }
 
 /* buttons */
 
-.slick-arrow{
+.slick-arrow {
   border-radius: 30px;
   background-color: #fff;
   position: absolute;
@@ -438,25 +436,24 @@ h6 {
   width: 48px;
   height: 48px;
   text-align: center;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
   border: 0;
   cursor: pointer;
 }
-.slick-arrow:focus{
+.slick-arrow:focus {
   outline: 0;
 }
-.slick-arrow svg{
+.slick-arrow svg {
   width: 12px;
   height: 100%;
-  color: rgba(0,0,0,.7);
+  color: rgba(0, 0, 0, 0.7);
 }
-.slick-prev{
+.slick-prev {
   left: 0px;
 }
-.slick-next{
+.slick-next {
   right: 0px;
 }
-
 
 /*clients*/
 .clients-section {
@@ -499,7 +496,7 @@ h6 {
   text-align: left;
   line-height: 1;
   width: 50%;
-  margin-left: 50px;
+  margin-left: 12%;
 }
 .contact-form__container {
   display: flex;
@@ -526,7 +523,7 @@ input {
 }
 textarea {
   width: 600px;
-  background: #f7f3f3;;
+  background: #f7f3f3;
   color: #000;
   font-weight: bold;
   border: none;
@@ -654,7 +651,7 @@ footer {
 }
 
 .branding-image__container img {
- width: 500px;
+  width: 500px;
 }
 .branding-image img {
   width: 100%;
@@ -680,7 +677,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
 }
 .branding-video__container iframe {
   width: 780px;
@@ -748,7 +744,8 @@ footer {
 }
 .davis-web__wrapper p {
   font-size: 2rem;
-  padding: 60px;
+  padding: 50px 20px;
+  text-align: end;
 }
 span {
   color: #e72a24;
@@ -793,12 +790,12 @@ span {
 
 /*contact ok */
 .contact-message {
- margin-top: 15%;
- display: flex;
- justify-content: center;
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
 }
 
-.contact-message__container{
+.contact-message__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -811,15 +808,110 @@ span {
 .contact-message__container h1 {
   color: #e72a24;
   font-size: 6rem;
-  font-family:monserrat-Light ;
+  font-family: monserrat-Light;
 }
 
+/*see all*/
+.see-all {
+  margin-top: 180px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-item {
+  width: 330px;
+}
+.see-all__button {
+  display: flex;
+  justify-content: center;
+}
+.btn-see {
+  animation: pulse 2s infinite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.carousell__button a {
+  text-decoration: none;
+}
+.carousell__button {
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 12px;
+  border: 3px solid #e72a24;
+  border-radius: 5px;
+  position: relative;
+  color: #f7f3f3;
+  background-color: #000;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+.carousell__button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #e72a24;
+  z-index: -1;
+}
+
+.carousell__button:hover,
+.carousell__button:focus {
+  color: black;
+  border: 3px solid #e72a24;
+}
+
+.carousell__button:hover:before,
+.carousell__button:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.carousell__button:active {
+  transform: scale(0.9);
+}
 
 /*media queries*/
 
 @media only screen and (max-width: 1600px) {
+  /*work*/
 
-
+  .work-main p {
+    font-size: 6rem;
+    margin-bottom: 0px;
+  }
+  .slick-list {
+    align-items: start;
+    height: 240px;
+  }
+  .slick-prev,
+  .slick-next {
+    bottom: 110px;
+  }
   .resident-main__container p {
     font-size: 1.5rem;
   }
@@ -843,7 +935,7 @@ span {
     text-align: end;
     font-size: 1.5rem;
   }
-  .resident-banner p  {
+  .resident-banner p {
     font-size: 1.5rem;
   }
 
@@ -871,14 +963,98 @@ span {
   .davis-web__wrapper img {
     width: 750px;
   }
-}
-/*brand film*/
 
+  /*see all*/
+  /*see all*/
+  .see-all {
+    margin-top: 120px;
+  }
+
+  .grid-item {
+    width: 280px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1599px) {
+  .slick {
+    width: 315px;
+  }
+  .paragraph-container {
+    margin-top: 75px;
+  }
+  .paragraph-red {
+    font-size: 5rem;
+    line-height: 90px;
+  }
+  .paragraph-white {
+    font-size: 5rem;
+    line-height: 80px;
+  }
+  .about p {
+    font-size: 3rem;
+  }
+  .services-paragraph {
+    font-size: 1.5rem;
+  }
+  .services-containter h1 {
+    font-size: 3rem;
+  }
+  .work-main p {
+    font-size: 5rem;
+    line-height: 80px;
+  }
+  /* .slick {
+    width: 260px;
+  } */
+  .clients-container img {
+    width: 110px;
+    margin: 15px;
+  }
+  .clients-section h1 {
+    margin: 70px 0px 5px 9%;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .contact-form__container p {
+    font-size: 1.5rem;
+  }
+  .contact-container h1 {
+    font-size: 7rem;
+  }
+  footer {
+    padding: 15px 0px;
+  }
+  .grid-item {
+    width: 95%;
+  }
+  .resident-container {
+    margin: 74px 200px 5px 200px;
+  }
+  .davis-web__wrapper img {
+    width: 420px;
+  }
+
+  .branding-can__container p {
+    font-size: 1.3rem;
+  }
+  .branding-can__container img {
+    width: 266px;
+  }
+  .branding-video__container iframe {
+    height: 383px;
+  }
+  .branding-video__container p {
+    font-size: 1.3rem;
+  }
+  .fullimage {
+    width: 420px;
+  }
+}
 @media only screen and (min-width: 360px) and (max-width: 780px) {
   .body-height {
     height: 100vh;
   }
- 
+
   .film-main__container h1 {
     font-size: 1.3rem;
   }
@@ -920,12 +1096,12 @@ span {
     margin-top: 3%;
   }
   .paragraph-white {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 55px;
     text-align: center;
   }
   .paragraph-red {
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 55px;
     text-align: center;
   }
@@ -985,7 +1161,8 @@ span {
   .overlay-text {
     font-size: 1rem;
   }
-  .img-next , .img-prev {
+  .img-next,
+  .img-prev {
     width: 0px;
   }
 
@@ -993,11 +1170,11 @@ span {
     font-size: 16px;
     padding: 5px;
   }
-  .prev-next div{
-     margin: 0px;
+  .prev-next div {
+    margin: 0px;
   }
   .margin-work {
-    margin: 25px ;
+    margin: 25px;
   }
   .branding-video__container {
     margin: 25px;
@@ -1164,15 +1341,31 @@ span {
     width: 100%;
   }
   /*navigation work*/
-     .navigation-footer {
-    padding-bottom:  50px;
-   }
-   .text-right , .text-left {
+  .navigation-footer {
+    padding-bottom: 50px;
+  }
+  .text-right,
+  .text-left {
     padding: 0px 5px;
-   }
+  }
   /*carousel*/
- .slick {
-  margin-left: -16px;
- }
-
+  .carousell__button {
+    margin-top: 15px;
+  }
+  .slick {
+    margin-left: -12px;
+  }
+  .slick-next {
+    right: 1px;
+  }
+  /*see all*/
+  .see-all {
+    margin-top: 130px;
+  }
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-item {
+    width: 300px;
+  }
 }
